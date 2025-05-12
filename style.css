@@ -1,0 +1,116 @@
+.title1 {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    text-align: left;
+    margin-bottom: -10px;
+}
+
+.hl1 {
+    font-size: 15px;
+    color:white;
+}
+
+.header{
+    display: flex;
+    border-bottom: 1px solid #fff;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px;
+}
+
+ul{
+    text-align: center;
+}
+
+ul li{
+    text-align: center;
+    display: inline-block;
+    margin: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+ul li a:hover{
+    color: #fff;
+    background-color: #595c5e;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.navbar{
+    color: #fff;
+    background-color: #202c34;
+    padding: 10px;
+}
+
+.btn1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 13px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn1:hover{
+    background-color: #0056b3;
+}
+
+
+body{
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    font-family: Arial,  sans-serif;
+}
+
+.btn1{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.text{
+    width: 30%;
+}
+
+.hero
+{
+    display: flex;
+    height: 400px;
+    padding: 50px;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.hero .image{
+    width: 40%;
+    text-align: center;
+}
+
+.hero .image img{
+    max-width: 100%;
+    height: auto;
+}
+
+.p1 {
+    padding: 0px auto;
+    
+}
+
+.title2 {
+    text-align: center;
+}
