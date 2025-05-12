@@ -111,6 +111,18 @@ body{
     
 }
 
+.main1 {
+    background-color: white;
+    text-align: center;
+}
+
 .title2 {
     text-align: center;
+}
+
+.container1 {
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
 }
