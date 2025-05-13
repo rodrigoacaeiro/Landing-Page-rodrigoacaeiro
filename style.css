@@ -9,6 +9,7 @@
 .hl1 {
     font-size: 24px;
     color:white;
+    font-family: Helvetica Black Bold;
 }
 
 .header{
@@ -128,19 +129,102 @@ body{
     font-family: Roboto;
 }
 
+.infoItems {
+    border-color: #0056b3;
+}
+
 .container2{
-    background-color: #E5E7EB;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     height: 400px;
+    flex-direction: column;
+    background-color: #E5E7EB;
 }
 
-.thor {
-    color: #1F2937;
+.main2 {
+    width: 50%;
+}
+
+.thor{
     font-size: 36px;
+    margin: 20px 0;
     font-style: italic;
+    color: #1F2937;
 }
 
-.thor1 {
+.thor1{
+    text-align: right;
+    font-size: 19px;
+    margin: 0px 0;
     color: black;
-    font-style: bold;
-    font-size: 14px;
+    font-weight: bold;
+}
+
+.main3 {
+    width: 50%;
+    margin: 0px;
+}
+
+.title3{
+    color: white;
+}
+
+.sgn {
+    color:white;
+}
+
+.btn3 {
+    color: white;
+    background-color: #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid white;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.btn3:hover {
+    background-color: #0056b3;
+}
+
+.text-f,
+.p-f {
+    color: white;
+}
+
+.text-f {
+    font-size: 25px;
+}
+
+.p-f{
+    font-size: 18px;
+    color: #cacaca;
+}
+
+.call {
+    background-color: #3882F6;
+    color: white;
+    padding: 40px 60px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 950px;
+    margin: 50px auto;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: left;
+    align-items: center;
+}
+
+.call-text {
+    width: 50%;
+}
+
+.olo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #202c34;
+    color: white;
 }
