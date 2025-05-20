@@ -7,7 +7,7 @@ body {
 }
 
 .navbar {
-    background-color: #333;
+    background-color:#202c34;;
     color: white;
     padding: 10px 20px;
 }
@@ -32,6 +32,13 @@ body {
 .navbar ul li a {
     color: white;
     text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: #fff;
+    background-color: #595c5e;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .main-contact {
@@ -85,7 +92,7 @@ form .btn-submit:hover {
 }
 
 .footer {
-    background-color: #333;
+    background-color:#202c34;;
     color: white;
     text-align: center;
     padding: 10px 0;
