@@ -77,3 +77,13 @@ a{
     align-items: center;
     margin: 10px;
 }
+
+.footer {
+    background-color: #202c34;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
