@@ -222,8 +222,9 @@ body{
 
 .olo {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     background-color: #202c34;
     color: white;
+    padding: 10px;
 }
